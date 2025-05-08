@@ -1,0 +1,9 @@
+jewelry
+
+Letter : Styl; Poppins
+         Size; 25, 28, 32
+Color : Background F3F3B7 (beige)
+        Button Color  471313 
+
+
+
