@@ -6,3 +6,43 @@
     box-sizing: border-box !important;
     font-family: "Poppins", sans-serif;
 }
+.banner-section{
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 0 99%, 0 0);
+}
+.ordersa{
+    background-color: #F3F3B7;
+}
+.banner-two{
+    width: 70%;
+}
+.imagebig:hover{
+    transform: scaleX(1.3);
+}
+.scroll-container::-webkit-scrollbar {
+    width: 0px;
+}
+.scroll-container {
+    -webkit-overflow-scrolling: touch;
+}
+ .expbtn{
+        font-size: 20px;
+        padding: 10px 20px !important;
+        background-color: #471313;
+            color:white
+    }
+@media (max-width:600px) {
+    .expbtn{
+        font-size: 10px;
+        padding: 10px 20px !important;
+        background-color: #471313;
+            color:white
+    }
+    .setwid{
+        max-width: 275px;
+    }
+}
+@media (min-width:768px) and (max-width:1023px) {
+     .setwid{
+        max-width: 285px;
+    }
+}

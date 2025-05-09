@@ -1,5 +1,5 @@
-import React from 'react'
-import { Navbar,Container,Nav,NavDropdown, NavLink } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Navbar,Container } from 'react-bootstrap'
 import './Header.css'
 import { Link } from 'react-router-dom'
 function Header() {
@@ -7,7 +7,7 @@ function Header() {
     <>
     <Navbar>
         <Container fluid className='p-2'>
-          <Navbar.Brand href="#home"><img src="./images/logo.png" alt="" width="200" className='ps-3'/></Navbar.Brand>
+          <Navbar.Brand href="#home"><img src="/images/logo.png" alt="" width="200" className='ps-3'/></Navbar.Brand>
         </Container>
       </Navbar>
 
@@ -21,7 +21,7 @@ function Header() {
 
 
         <li className="nav-item">
-          <Link className="nav-link active text-light fs-5 fw-semibold" aria-current="page" href="#">Home</Link>
+          <Link className="nav-link active text-light fs-5 fw-semibold" aria-current="page" to="/">Home</Link>
         </li>
 
 
@@ -118,7 +118,7 @@ function Header() {
          <div className="col-md-4">
             <ul className='stylelist'>
          <li className="nav-item">
-          <Link className="nav-link  m-2 mx-4 bg-light text-center borrad p-1">Necklace Set</Link>
+          <Link className="nav-link  m-2 mx-4 bg-light text-center borrad p-1">Necklace</Link>
         </li>
           <li className="nav-item">
           <Link className="nav-link  m-2 mx-4 bg-light text-center borrad p-1">Bindi</Link>
@@ -132,7 +132,7 @@ function Header() {
          <div className="col-md-4">
             <ul className='stylelist'>
          <li className="nav-item">
-          <Link className="nav-link  m-2 mx-4 bg-light text-center borrad p-1">Pendant Set</Link>
+          <Link className="nav-link  m-2 mx-4 bg-light text-center borrad p-1">Pendant</Link>
         </li>
           <li className="nav-item">
           <Link className="nav-link  m-2 mx-4 bg-light text-center borrad p-1">Bangels</Link>
@@ -149,16 +149,16 @@ function Header() {
 
 
         <li className="nav-item">
-          <Link className="nav-link text-light fs-5 fw-semibold " href="#">Whats Trending</Link>
+          <Link className="nav-link text-light fs-5 fw-semibold " to="/trending">Whats Trending</Link>
         </li>
         
 
         <li className="nav-item">
-        <Link className="nav-link text-light fs-5 fw-semibold " href="#">Contact Us</Link>
+        <Link className="nav-link text-light fs-5 fw-semibold" to="/contact">Contact Us</Link>
         </li>
       </ul>
+        <Link className="nav-link text-light text-center fs-5 fw-semibold me-lg-3 me-xl-4" to='/login'>Login</Link>
     </div>
-
   </div>
 </nav>
     </>

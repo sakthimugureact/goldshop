@@ -1,0 +1,112 @@
+.logindiv{
+    background-color: #F3F3B7;
+    height: 83dvh;
+}
+.login-container {
+    max-width: 80%;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    background-color: #F3F3B7;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.divider-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.btn-brown {
+    background-color: #4a1c03;
+    color: white;
+    padding: 12px;
+}
+.btn-brown:hover {
+    background-color: #3a1502;
+    color: white;
+}
+.form-control {
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.bottom-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bottom-links a {
+    color: #4a1c03;
+    text-decoration: none;
+}
+.logindiv .form-control {
+    padding: 12px !important;
+    margin-bottom: 15px !important;
+}
+
+
+
+.logindivs{
+    background-color: #F3F3B7;
+    height: 100%;
+}
+.signup-containers {
+    max-width: 80%;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.dividers {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0 !important;
+}
+.dividers::before,
+.dividers::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.divider-circles {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px !important;
+}
+.logindivs .form-control {
+    width: 95%;
+    padding: 12px !important;
+    margin-bottom: 15px !important;
+}
+.btn-brown {
+    background-color: #4a1c03;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px !important;
+}
+.btn-brown:hover {
+    background-color: #3a1502;
+    color: white;
+}
+
+
+.contactportal{
+   background-color: #F3F3B7;
+}

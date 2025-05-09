@@ -4,7 +4,7 @@
 }
 .dropdown-menu{
     width: 450px !important;
-    background-image: url('/public/images/bg.avif');
+    background-image: url('/images/bg.avif');
 }
 .stylelist{
     list-style: none;
@@ -14,14 +14,15 @@
 }
 .dropmenu{
     width: 100vw !important;
-    margin-left: -290px !important;
+    margin-left: -250px !important;
 }
 .category-column {
     margin-bottom: 30px !important;
+    margin-left: 12px !important;
 }
 .category-title {
     color: #8b4513;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 10px !important;
     margin-bottom: 20px !important;
     font-weight: 600;
@@ -79,8 +80,10 @@
     }
     .category-column {
         margin-bottom: 0px !important;
+        margin-left: 0px !important;
     }
     .category-title {
+        font-size: 18px !important;
         margin-top: 0px !important;
         margin-bottom: 0px !important;
     }
@@ -88,11 +91,19 @@
         padding: 0px !important;
     }
     .category-list li {
+        font-size: 10px;
         margin-bottom: 2px !important;
     }
     .gp{
         gap: 0 !important;
     }
+    .navcon{
+        padding: 10px !important;
+    }
+    .navbar-nav{
+        gap: 20px !important;
+    }
+    
 }
 @media (min-width:1024px) and (max-width:1199px) {
     .dropmenu{
@@ -101,10 +112,11 @@
     }
     .category-column {
         margin-bottom: 10px !important;
+        margin-left: 0px !important;
     }
     .category-title {
         color: #8b4513;
-        font-size: 1.5rem;
+        font-size: 18px;
         margin-top: 10px !important;
         margin-bottom: 10px !important;
         font-weight: 600;
@@ -114,7 +126,8 @@
         padding: 1px !important;
     }
     .category-list li {
-        margin-bottom: 5px !important;
+        font-size: 12px !important;
+        margin-bottom: 2px !important;
     }
     .category-list a {
         color: #6b4423;
@@ -126,5 +139,8 @@
     }
     .gp{
         gap: 20px !important;
+    }
+    .nav-link {
+        font-size: 15px !important;
     }
 }
