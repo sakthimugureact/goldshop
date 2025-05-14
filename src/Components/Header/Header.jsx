@@ -1,8 +1,18 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Navbar,Container } from 'react-bootstrap'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import { BoxArrowRight, PersonFill } from 'react-bootstrap-icons';
 function Header() {
+  const [users,setUsers] = useState(false);
+  useEffect(()=>{
+    setUsers(JSON.parse((localStorage.getItem('login'))))
+  },[])
+  // useEffect(()=>{
+  //   localStorage.setItem('login',users)
+  // },[users])
+  // console.log(users);
+  
   return (
     <>
     <Navbar>
@@ -157,7 +167,9 @@ function Header() {
         <Link className="nav-link text-light fs-5 fw-semibold" to="/contact">Contact Us</Link>
         </li>
       </ul>
-        <Link className="nav-link text-light text-center fs-5 fw-semibold me-lg-3 me-xl-4" to='/login'>Login</Link>
+        {!users && <Link className="nav-link text-light text-center fs-5 fw-semibold me-lg-3 me-xl-4" to='/login'>Login</Link>}
+        {users && <Link className="nav-link text-light text-center fs-3 fw-bold me-lg-3 me-xl-4" onClick={()=>{setUsers(false)}}><BoxArrowRight/></Link>}
+        {users && <Link className="nav-link text-light text-center fs-3 fw-bold me-lg-3 me-xl-4" to={'/persondetails'}><PersonFill/></Link>}
     </div>
   </div>
 </nav>

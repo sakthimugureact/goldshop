@@ -24,12 +24,73 @@
 .scroll-container {
     -webkit-overflow-scrolling: touch;
 }
- .expbtn{
-        font-size: 20px;
-        padding: 10px 20px !important;
-        background-color: #471313;
-            color:white
-    }
+.expbtn{
+    font-size: 20px;
+    padding: 10px 20px !important;
+    background-color: #471313;
+    color:white
+}
+
+
+.section-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading-underline {
+    width: 20px;
+    height: 2px;
+    background-color: #b8860b;
+    display: inline-block;
+    margin-top: 8px !important;
+}
+
+.section-title {
+    color: #471313;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.image-style {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease; 
+}
+
+.image-container:hover .image-style {
+  transform: scaleX(1.5); 
+}
+
+.text-column {
+    text-align: left; 
+}
+.form-check{
+    padding-bottom: 10px !important;
+}
+.form-check-input{
+    border: 1px solid black;
+    margin-right: 5px !important;
+}
+.explore-button {
+    background-color: #471313;
+    color: white;
+    border-radius: 0px 25px 25px 0px;
+    font-weight: bold;
+}
+.orderimg{
+    width: 70%;
+    display: block;
+    margin: auto !important;
+    height: 220px !important;
+}
+.success-page{
+    width: 45%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
 @media (max-width:600px) {
     .expbtn{
         font-size: 10px;
@@ -40,9 +101,15 @@
     .setwid{
         max-width: 275px;
     }
+    .image-style{
+        width: 200px;
+    }
 }
 @media (min-width:768px) and (max-width:1023px) {
      .setwid{
         max-width: 285px;
+    }
+    .image-style{
+        width: 350px;
     }
 }

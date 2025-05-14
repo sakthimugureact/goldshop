@@ -1,0 +1,286 @@
+{
+    "designers":[
+        {
+            "id":1,
+            "designsrc":"/images/16.jpg",
+            "title":"Temple Jewellery"
+        },
+        {
+            "id":2,
+            "designsrc":"/images/17.jpg",
+            "title":"Kudan Jewellery"
+        },
+        {
+            "id":3,
+            "designsrc":"/images/18.jpg",
+            "title":"Antique Jewellery"
+        },
+        {
+            "id":4,
+            "designsrc":"/images/19.webp",
+            "title":"Polki Jewellery"
+        },
+        {
+            "id":5,
+            "designsrc":"/images/19.jpg",
+            "title":"Cz Jewellery"
+        },
+        {
+            "id":6,
+            "designsrc":"/images/20.jpg",
+            "title":"Thewa Jewellery"
+        },
+        {
+            "id":7,
+            "designsrc":"/images/22.jpg",
+            "title":"Beaded Jewellery"
+        },
+        {
+            "id":8,
+            "designsrc":"/images/21.jpg",
+            "title":"Kemp Jewellery"
+        },
+        {
+            "id":9,
+            "designsrc":"/images/23.webp",
+            "title":"Mirror Jewellery"
+        },
+        {
+            "id":10,
+            "designsrc":"/images/22.webp",
+            "title":"Teracota Jewellery"
+        },
+        {
+            "id":11,
+            "designsrc":"/images/23.jpg",
+            "title":"Oxidized Jewellery"
+        },
+        {
+            "id":12,
+            "designsrc":"/images/25.jpg",
+            "title":"Fabric Jewellery"
+        }
+    ],
+    "innerearrings":[
+        {
+             "id":1,
+            "designsrc":"/images/67.jpg",
+            "amount":1500,
+            "title":"Oxidixed Plated Earrings",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":2,
+            "designsrc":"/images/50.jpg",
+            "amount":1200,
+            "title":"Green Long Earrings",
+            "quantity":1,
+            "size":"1",
+            "color":""
+        },
+        {
+             "id":3,
+            "designsrc":"/images/64.jpg",
+            "amount":1500,
+            "title":"Oxidixed Plated Earrings",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":4,
+            "designsrc":"/images/63.webp",
+            "amount":900,
+            "title":"Oxidized Jhumki",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":5,
+            "designsrc":"/images/69.webp",
+            "amount":1100,
+            "title":"Full Stone",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":6,
+            "designsrc":"/images/47.png",
+            "amount":1000,
+            "title":"Oxidized Jhumki",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":7,
+            "designsrc":"/images/50.jpg",
+            "amount":900,
+            "title":"Stone Long Pearl",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":8,
+            "designsrc":"/images/84.jpg",
+            "amount":1200,
+            "title":"Small Size Earrings",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":9,
+            "designsrc":"/images/83.jpg",
+            "amount":1200,
+            "title":"Anti High Gold",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":10,
+            "designsrc":"/images/82.webp",
+            "amount":1000,
+            "title":"Green Long Earrings",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":11,
+            "designsrc":"/images/13.jpg",
+            "amount":1500,
+            "title":"Antique Earrings",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":12,
+            "designsrc":"/images/80.jpg",
+            "amount":2500,
+            "title":"Anti High Gold Earrings",
+            "quantity":1,
+            "size":"",
+            "color":""
+        }
+
+    ],
+    "pedants":[
+        {
+             "id":1,
+            "designsrc":"/images/91.webp",
+            "amount":1500,
+            "title":"Oxidixed Plated Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":2,
+            "designsrc":"/images/13.webp",
+            "amount":1200,
+            "title":"Green Plated Pedants",
+            "quantity":1,
+            "size":"1",
+            "color":""
+        },
+        {
+             "id":3,
+            "designsrc":"/images/104.jpg",
+            "amount":1500,
+            "title":"Gold Plated Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":4,
+            "designsrc":"/images/105.jpg",
+            "amount":900,
+            "title":"Stone Plated Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":5,
+            "designsrc":"/images/113.webp",
+            "amount":1100,
+            "title":"Full Stone",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":6,
+            "designsrc":"/images/114.jpg",
+            "amount":1000,
+            "title":"Gold Plated Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":7,
+            "designsrc":"/images/126.jpg",
+            "amount":900,
+            "title":"Stone Plated Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":8,
+            "designsrc":"/images/125.png",
+            "amount":1200,
+            "title":"Small Size Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":9,
+            "designsrc":"/images/124.webp",
+            "amount":1200,
+            "title":"Gold & Stone Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":10,
+            "designsrc":"/images/123.jpg",
+            "amount":1000,
+            "title":"Gold & Stone Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":11,
+            "designsrc":"/images/122.jpg",
+            "amount":1500,
+            "title":"Antique Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        },
+        {
+             "id":12,
+            "designsrc":"/images/119.png",
+            "amount":2500,
+            "title":"Anti High Pedants",
+            "quantity":1,
+            "size":"",
+            "color":""
+        }
+
+    ]
+}
