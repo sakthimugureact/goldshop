@@ -140,7 +140,7 @@ function Home() {
                 {/* Necklace Set */}
                 <div className=" col-md-2 text-center">
                   <div className="category-item">
-                    <img
+                   <Link to={"/earring"}> <img
                       src="/images/14.jpg"
                       alt="Necklace Set"
                       className="rounded-circle mb-2 earring"
@@ -149,7 +149,7 @@ function Home() {
                         height: "230px",
                         objectFit: "cover",
                       }}
-                    />
+                    /></Link>
                     <p className="mb-0 fs-3 fw-bold">Necklace Set</p>
                   </div>
                 </div>
@@ -157,6 +157,7 @@ function Home() {
                 {/* Anklet */}
                 <div className="col-md-2 text-center">
                   <div className="category-item">
+                    <Link to={"/pedant"}>
                     <img
                       src="/images/154.jpg"
                       alt="Anklet"
@@ -167,6 +168,7 @@ function Home() {
                         objectFit: "cover",
                       }}
                     />
+                    </Link>
                     <p className="mb-0 fs-3 fw-bold">Anklet</p>
                   </div>
                 </div>
@@ -174,6 +176,7 @@ function Home() {
                 {/* Necklace */}
                 <div className="col-md-2 text-center">
                   <div className="category-item">
+                    <Link to={"/earring"}>
                     <img
                       src="/images/09.jpg"
                       alt="Necklace"
@@ -184,6 +187,7 @@ function Home() {
                         objectFit: "cover",
                       }}
                     />
+                    </Link>
                     <p className="mb-0 fs-3 fw-bold">Necklace</p>
                   </div>
                 </div>
